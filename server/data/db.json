@@ -25,15 +25,15 @@
     "receptionDate": "2026-11-27",
     "receptionDateDisplay": "27 tháng 11, 2026",
     "receptionLunarDateDisplay": "19 tháng 10 năm Bính Ngọ",
-    "venueName": "Tư Gia Nhà Gái",
-    "venueAddress": "Pá Nim, Bình Gia, Lạng Sơn",
+    "venueName": "TƯ GIA NHÀ GÁI",
+    "venueAddress": "Pá Nim - Bình Gia - Lạng Sơn",
     "googleMapsUrl": "https://maps.app.goo.gl/vY2EyAjeJcjnuW6S6",
     "ceremonyMapsUrl": "https://maps.app.goo.gl/vY2EyAjeJcjnuW6S6",
     "ceremonyName": "Lễ Vu Quy tại Tư Gia Nhà Gái",
-    "ceremonyVenue": "Tư Gia Nhà Gái",
-    "receptionName": "Tiệc Chung Vui Tại Tư Gia Nhà Gái",
+    "ceremonyVenue": "TƯ GIA NHÀ GÁI",
+    "receptionName": "TƯ GIA NHÀ GÁI",
     "ceremonyTime": "07:30",
-    "ceremonyAddress": "Pá Nim, Bình Gia, Lạng Sơn",
+    "ceremonyAddress": "Pá Nim - Bình Gia - Lạng Sơn",
     "loveQuote": "Khoảnh khắc thấy nhau trên lễ đường... Dù bão giông nghèo khó, mình già đi cùng nhau, có nhau.",
     "groomPhone": "0988 888 888",
     "groomRepName": "Nguyễn Đơn Cương",
@@ -58,7 +58,7 @@
       "guestCount": 1,
       "notes": "Hi",
       "createdAt": "2026-11-08T16:58:09.157Z",
-      "updatedAt": "2026-11-16T16:36:55.960Z"
+      "updatedAt": "2026-11-16T16:51:54.514Z"
     }
   ],
   "wishes": [],
@@ -135,7 +135,7 @@
     "sheetUrl": "https://docs.google.com/spreadsheets/d/1TQfgjWEecunc885sHWaXs_yoKWC4wKMYcRFFDXEwQ9w/edit?usp=sharing",
     "docUrl": "https://docs.google.com/spreadsheets/d/1TQfgjWEecunc885sHWaXs_yoKWC4wKMYcRFFDXEwQ9w/edit?usp=sharing",
     "autoSync": true,
-    "lastSync": "2026-11-16T16:36:55.960Z"
+    "lastSync": "2026-11-16T16:51:54.514Z"
   },
   "adminPassword": "Peanut@1998",
   "likes": {

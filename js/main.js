@@ -2205,8 +2205,8 @@ document.addEventListener('DOMContentLoaded', () => {
       if (recTime) recTime.textContent = weddingTime;
       if (recDate) recDate.textContent = dateDisplay;
       if (recLunar) recLunar.textContent = `(Tức ngày ${data.receptionLunarDateDisplay || '19 tháng 10 năm Bính Ngọ'})`;
-      if (recVenue) recVenue.textContent = data.receptionName || 'Tiệc Chung Vui Tại Tư Gia Nhà Gái';
-      if (recAddr) recAddr.textContent = `${venueName} — ${venueAddress}`;
+      if (recVenue) recVenue.textContent = data.receptionName || 'TƯ GIA NHÀ GÁI';
+      if (recAddr) recAddr.textContent = venueAddress;
       if (recMap) recMap.href = mapsUrl;
       if (recMapBtn) recMapBtn.textContent = `Chỉ Đường ${shortVenue}`;
 
