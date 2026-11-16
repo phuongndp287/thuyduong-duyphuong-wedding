@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: thuyduong-duyphuong-weeding
+    name: thuyduong-duyphuong-wedding
     env: node
     plan: free
     buildCommand: npm install
