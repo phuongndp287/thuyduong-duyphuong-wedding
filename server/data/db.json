@@ -19,9 +19,12 @@
     "brideAccountName": "LE THUY DUONG",
     "brideQrImage": "assets/images/qr/qr-bride-1793297850590.jpg",
     "weddingDate": "2026-11-28",
-    "weddingTime": "07:30",
+    "weddingTime": "16:00",
     "weddingDateDisplay": "28 tháng 11, 2026",
     "lunarDateDisplay": "20 tháng 10 năm Bính Ngọ",
+    "receptionDate": "2026-11-27",
+    "receptionDateDisplay": "27 tháng 11, 2026",
+    "receptionLunarDateDisplay": "19 tháng 10 năm Bính Ngọ",
     "venueName": "Tư Gia Nhà Gái",
     "venueAddress": "Pá Nim, Bình Gia, Lạng Sơn",
     "googleMapsUrl": "https://maps.google.com/?q=P%C3%A1+Nim,+B%C3%ACnh+Gia,+L%E1%BA%A1ng+S%C6%A1n",
@@ -43,7 +46,7 @@
   "guests": [
     {
       "id": "guest-1794157089157-w188t",
-      "name": "Duy Phương",
+      "name": "Xính",
       "side": "Nhà Trai",
       "phone": "",
       "relation": "Khách tự xác nhận RSVP",
@@ -52,9 +55,9 @@
       "invited": true,
       "rsvpStatus": "attending",
       "guestCount": 1,
-      "notes": "",
+      "notes": "Hi",
       "createdAt": "2026-11-08T16:58:09.157Z",
-      "updatedAt": "2026-11-08T17:09:13.494Z"
+      "updatedAt": "2026-11-16T16:33:55.013Z"
     }
   ],
   "wishes": [],
@@ -131,7 +134,7 @@
     "sheetUrl": "https://docs.google.com/spreadsheets/d/1TQfgjWEecunc885sHWaXs_yoKWC4wKMYcRFFDXEwQ9w/edit?usp=sharing",
     "docUrl": "https://docs.google.com/spreadsheets/d/1TQfgjWEecunc885sHWaXs_yoKWC4wKMYcRFFDXEwQ9w/edit?usp=sharing",
     "autoSync": true,
-    "lastSync": "2026-11-08T17:09:13.494Z"
+    "lastSync": "2026-11-16T16:33:55.013Z"
   },
   "adminPassword": "Peanut@1998",
   "likes": {

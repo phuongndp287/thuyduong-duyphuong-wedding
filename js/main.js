@@ -2030,18 +2030,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const month = targetDate.getMonth();
     const day = targetDate.getDate();
 
-    // Update Header Date e.g. 28.11.2026
+    // Update Header Date e.g. 27 – 28.11.2026
     if (calHeaderDateEl) {
-      const padM = String(month + 1).padStart(2, '0');
-      const padD = String(day).padStart(2, '0');
-      calHeaderDateEl.textContent = `${padD}.${padM}.${year}`;
+      calHeaderDateEl.textContent = `27 – 28.11.${year}`;
     }
 
-    // Update Header Sub e.g. Thứ Bảy, 10:00 AM
+    // Update Header Sub
     if (calHeaderSubEl) {
-      const dows = ['Chủ Nhật', 'Thứ Hai', 'Thứ Ba', 'Thứ Tư', 'Thứ Năm', 'Thứ Sáu', 'Thứ Bảy'];
-      const dowText = dows[targetDate.getDay()] || 'Thứ Bảy';
-      calHeaderSubEl.textContent = `${dowText}, 10:00 AM`;
+      calHeaderSubEl.textContent = `Tiệc: 16:00 T6 (27/11) · Lễ Vu Quy: 07:30 T7 (28/11)`;
     }
 
     // Days in this month
@@ -2056,8 +2052,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     for (let d = 1; d <= totalDays; d++) {
-      if (d === day) {
-        html += `<span class="cal-cell is-wedding-day" title="Ngày cưới trọng đại">${d}</span>`;
+      if (d === 27 || d === 28) {
+        const tip = d === 27 ? 'Tiệc chung vui (16:00)' : 'Lễ Vu Quy (07:30)';
+        html += `<span class="cal-cell is-wedding-day" title="${tip}">${d}</span>`;
       } else {
         html += `<span class="cal-cell">${d}</span>`;
       }
@@ -2207,7 +2204,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (recTime) recTime.textContent = weddingTime;
       if (recDate) recDate.textContent = dateDisplay;
-      if (recLunar && data.lunarDateDisplay) recLunar.textContent = `(Âm lịch: ${data.lunarDateDisplay})`;
+      if (recLunar) recLunar.textContent = `(Tức ngày ${data.receptionLunarDateDisplay || '19 tháng 10 năm Bính Ngọ'})`;
       if (recVenue) recVenue.textContent = data.receptionName || 'Tiệc Chung Vui Tại Tư Gia Nhà Gái';
       if (recAddr) recAddr.textContent = `${venueName} — ${venueAddress}`;
       if (recMap) recMap.href = mapsUrl;
