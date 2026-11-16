@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: thuyduong-duyphuong-weeding
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/wedding
+    autoDeploy: true
+
