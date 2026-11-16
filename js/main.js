@@ -2192,7 +2192,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (cerLunar && data.lunarDateDisplay) cerLunar.textContent = `(Tức ngày ${data.lunarDateDisplay})`;
       if (cerLoc && data.ceremonyName) cerLoc.textContent = data.ceremonyName;
       if (cerAddr && data.ceremonyAddress) cerAddr.textContent = `${ceremonyVenueLabel} — ${data.ceremonyAddress}`;
-      if (cerMap && data.ceremonyAddress) cerMap.href = `https://maps.google.com/?q=${encodeURIComponent(data.ceremonyAddress)}`;
+      if (cerMap) cerMap.href = data.ceremonyMapsUrl || data.googleMapsUrl || `https://maps.google.com/?q=${encodeURIComponent(data.ceremonyAddress || '')}`;
 
       const recTime = document.getElementById('receptionTimeDisplay');
       const recDate = document.getElementById('receptionDateDisplay');

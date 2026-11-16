@@ -27,7 +27,8 @@
     "receptionLunarDateDisplay": "19 tháng 10 năm Bính Ngọ",
     "venueName": "Tư Gia Nhà Gái",
     "venueAddress": "Pá Nim, Bình Gia, Lạng Sơn",
-    "googleMapsUrl": "https://maps.google.com/?q=P%C3%A1+Nim,+B%C3%ACnh+Gia,+L%E1%BA%A1ng+S%C6%A1n",
+    "googleMapsUrl": "https://maps.app.goo.gl/vY2EyAjeJcjnuW6S6",
+    "ceremonyMapsUrl": "https://maps.app.goo.gl/vY2EyAjeJcjnuW6S6",
     "ceremonyName": "Lễ Vu Quy tại Tư Gia Nhà Gái",
     "ceremonyVenue": "Tư Gia Nhà Gái",
     "receptionName": "Tiệc Chung Vui Tại Tư Gia Nhà Gái",
@@ -57,7 +58,7 @@
       "guestCount": 1,
       "notes": "Hi",
       "createdAt": "2026-11-08T16:58:09.157Z",
-      "updatedAt": "2026-11-16T16:33:55.013Z"
+      "updatedAt": "2026-11-16T16:36:55.960Z"
     }
   ],
   "wishes": [],
@@ -134,7 +135,7 @@
     "sheetUrl": "https://docs.google.com/spreadsheets/d/1TQfgjWEecunc885sHWaXs_yoKWC4wKMYcRFFDXEwQ9w/edit?usp=sharing",
     "docUrl": "https://docs.google.com/spreadsheets/d/1TQfgjWEecunc885sHWaXs_yoKWC4wKMYcRFFDXEwQ9w/edit?usp=sharing",
     "autoSync": true,
-    "lastSync": "2026-11-16T16:33:55.013Z"
+    "lastSync": "2026-11-16T16:36:55.960Z"
   },
   "adminPassword": "Peanut@1998",
   "likes": {
