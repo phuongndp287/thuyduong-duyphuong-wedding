@@ -2191,7 +2191,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (cerLunar && data.lunarDateDisplay) cerLunar.textContent = `(Tức ngày ${data.lunarDateDisplay})`;
       if (cerLoc && data.ceremonyName) cerLoc.textContent = data.ceremonyName;
-      if (cerAddr && data.ceremonyAddress) cerAddr.textContent = `${ceremonyVenueLabel} — ${data.ceremonyAddress}`;
+      if (cerAddr && data.ceremonyAddress) cerAddr.textContent = data.ceremonyAddress;
       if (cerMap) cerMap.href = data.ceremonyMapsUrl || data.googleMapsUrl || `https://maps.google.com/?q=${encodeURIComponent(data.ceremonyAddress || '')}`;
 
       const recTime = document.getElementById('receptionTimeDisplay');
@@ -2205,7 +2205,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (recTime) recTime.textContent = weddingTime;
       if (recDate) recDate.textContent = dateDisplay;
       if (recLunar) recLunar.textContent = `(Tức ngày ${data.receptionLunarDateDisplay || '19 tháng 10 năm Bính Ngọ'})`;
-      if (recVenue) recVenue.textContent = data.receptionName || 'TƯ GIA NHÀ GÁI';
+      if (recVenue) recVenue.textContent = data.receptionName || 'Tiệc Chung Vui Tại Tư Gia Nhà Gái';
       if (recAddr) recAddr.textContent = venueAddress;
       if (recMap) recMap.href = mapsUrl;
       if (recMapBtn) recMapBtn.textContent = `Chỉ Đường ${shortVenue}`;
