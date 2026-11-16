@@ -2262,22 +2262,23 @@ document.addEventListener('DOMContentLoaded', () => {
       const endNames = document.querySelector('.stt-ending-names');
       if (endNames) endNames.textContent = `${groomShort} & ${brideShort}`;
 
-      // 11. STT Big Date Display (Ceremony & Reception)
-      let dayVal = '28';
+      // 11. STT Big Date Display (Reception Feast Date: Thứ Sáu 27/11/2026)
+      const feastDateRaw = data.receptionDate || '2026-11-27';
+      let dayVal = '27';
       let monthVal = 'THÁNG 11';
-      let dowVal = 'THỨ BẢY';
+      let dowVal = 'THỨ SÁU';
       let yearVal = '2026';
 
       try {
-        if (dateRaw && dateRaw.includes('-')) {
-          const parts = dateRaw.split('-');
+        if (feastDateRaw && feastDateRaw.includes('-')) {
+          const parts = feastDateRaw.split('-');
           if (parts.length === 3) {
             const dt = new Date(parseInt(parts[0], 10), parseInt(parts[1], 10) - 1, parseInt(parts[2], 10));
             dayVal = String(parseInt(parts[2], 10));
             monthVal = `THÁNG ${parseInt(parts[1], 10)}`;
             yearVal = String(parts[0]);
             const dows = ['CHỦ NHẬT', 'THỨ HAI', 'THỨ BA', 'THỨ TƯ', 'THỨ NĂM', 'THỨ SÁU', 'THỨ BẢY'];
-            dowVal = dows[dt.getDay()] || 'THỨ BẢY';
+            dowVal = dows[dt.getDay()] || 'THỨ SÁU';
           }
         }
       } catch (e) {}
